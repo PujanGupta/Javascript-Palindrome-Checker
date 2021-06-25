@@ -1,4 +1,4 @@
-// Before Running Please Exectute the following command in the same directory: npm i prompt-sync 
+// Before Running Please Exectute the following command in the same directory if you are not downloading the other files other than app.js : npm i prompt-sync 
 
 const prompt = require('prompt-sync')();
 
@@ -17,7 +17,3 @@ if (isPalindrome(userInput) === true) {
 } else {
     console.log(userInput + " " + "isn't a palindrome")
 }
-
-
-
-
