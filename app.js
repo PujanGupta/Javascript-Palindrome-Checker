@@ -1,3 +1,5 @@
+// Before Running Please Exectute the following command in the same directory: npm i prompt-sync 
+
 const prompt = require('prompt-sync')();
 
 function isPalindrome(str) {
